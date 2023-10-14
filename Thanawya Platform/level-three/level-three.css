@@ -1,0 +1,33 @@
+.subjects-container {
+  margin-bottom: 20px;
+  text-align: center;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.subjects-container img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  padding-bottom: 10px;
+}
+
+.subject {
+  border-radius: 5px;
+}
+
+.subject a {
+  color: white;
+}
+
+.subject h2 {
+  padding-top: 10px;
+}
+
+.physics {
+  background-color: #fcb62e;
+}
+
+.subject h2 a:hover {
+  color: blue;
+}

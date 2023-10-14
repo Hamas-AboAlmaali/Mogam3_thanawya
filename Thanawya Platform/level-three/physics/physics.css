@@ -1,0 +1,91 @@
+.subject-name {
+  background-color: #1abca9;
+  width: 100px;
+  text-align: center;
+  padding: 10px;
+  margin: 25px auto;
+  border-radius: 21px;
+  font-weight: bold;
+}
+
+.chapter-name {
+  background-color: #fd4d40;
+  text-align: center;
+  padding: 10px;
+  margin: 25px auto;
+  border-radius: 21px;
+  font-weight: bold;
+}
+
+.all-chapters {
+  margin-top: 40px;
+}
+
+.all-chapters h3 {
+  color: white;
+  padding-bottom: 15px;
+}
+
+.all-chapters li li {
+  color: blue;
+  list-style-type: square;
+}
+
+.all-chapters li li:hover,
+.chapter-six h3:hover,
+.chapter-seven h3:hover {
+  color: orchid;
+  cursor: pointer;
+}
+
+.chapter {
+  direction: rtl;
+  border-radius: 10px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.chapter li {
+  margin: 5px;
+}
+
+.chapter ul {
+  margin-right: 60px;
+  padding-bottom: 10px;
+}
+
+.chapter h1 {
+  text-align: center;
+  padding-top: 15px;
+}
+
+.chapter h3 {
+  text-align: center;
+}
+
+.chapter-one,
+.chapter-three,
+.chapter-five,
+.chapter-seven {
+  background-color: #fcb62e;
+}
+
+.chapter-two,
+.chapter-four,
+.chapter-six,
+.chapter-eight {
+  background-color: #1abca9;
+}
+
+.tab-panels {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.tab-panels .video {
+  display: none;
+}
+
+.tab-panels .video[video-is-active="true"] {
+  display: block;
+}
